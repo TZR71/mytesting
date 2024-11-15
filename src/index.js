@@ -10,7 +10,16 @@ root.render(
   <React.StrictMode>
     <h1>Weather Search Engine</h1>
     <SearchCity />
-    <h2> This project can be found also in</h2> 
+    <h3>
+      {" "}
+      This project can be found also in{" "}
+      <a
+        href="https://github.com/TZR71/mytesting"
+        target="_blank"
+        rel="noreferrer"
+      >
+        here.{" "}
+      </a>
+    </h3>
   </React.StrictMode>
-  
 );
